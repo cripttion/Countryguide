@@ -27,6 +27,7 @@ const filteredData = colleges.filter(college=>collegesState ===''||college.state
   return (
     <div>
         <h2>Approved colleges in india</h2>
+        <h1>this is the filterd data</h1>
         <select onChange={(e)=>setCollegesState(e.target.value)}>
             <option value="">All cities</option>
             {stateName.map((college,index)=>(
